@@ -2,8 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {},
+      backgroundColor: {
+        "custom-purple": "#8823C6",
+      },
+      fontFamily: {},
+    },
   },
   plugins: [],
 };
-
