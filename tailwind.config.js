@@ -6,6 +6,10 @@ module.exports = {
       screens: {},
       backgroundColor: {
         "custom-purple": "#8823C6",
+        "custom-orange": "#FFBA53",
+      },
+      textColor: {
+        "custom-purple": "#8823C6",
       },
       fontFamily: {},
     },
