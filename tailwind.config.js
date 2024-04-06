@@ -10,8 +10,14 @@ module.exports = {
       },
       textColor: {
         "custom-purple": "#8823C6",
+        "text-white": "#EBEBEB",
       },
-      fontFamily: {},
+      fontFamily: {
+        "bree": ["Bree Serif", "sans-serif"]
+      },
+      listStyleImage: {
+        dice: 'url("assets/images/dice.svg")',
+      },
     },
   },
   plugins: [],

@@ -3,12 +3,38 @@ import { MdEmail } from "react-icons/md";
 
 function HomePage() {
   return (
-    <div className='text-white bg-custom-orange'>
+    <div className='text-text-white bg-custom-orange font-bree'>
       {/* {Main} */}
-      <section>HomePage Section</section>
+      <section className="">
+        <div className="flex flex-col justify-center items-center pt-20 gap-y-4">
+          <h1 className="text-6xl">WELCOME TO</h1>
+          <h1 className="text-4xl">THE</h1>
+          <h1 className="text-custom-purple text-6xl">QUEEN'S</h1>
+          <h1 className="text-custom-purple text-6xl">BOARD GAME</h1>
+          <h1 className="text-custom-purple text-6xl">CLUB</h1>
+        </div>
+      </section>
 
       {/* {Meetings} */}
-      <section>Meeting Section</section>
+      <section className="flex flex-row justify-around pt-32 text-center items-start">
+        <div className="flex flex-col justify-center w-5/12">
+          <h3 className="text-6xl">Meeting Times</h3>
+          <h7 className="text-xl pt-6"> We meet weekly on _____ and ______ at _______ and _________</h7>
+
+        </div>
+        <div className="w-5/12 text-left text-lg">
+          <h3 className="text-6xl text-center pb-6">Special Events</h3>
+          <li className="list-disc">September 9: Event number 1</li>
+          <li className="list-disc">October 12: Event number 2</li>
+          <li className="list-disc">November 9: Event number 3</li>
+          <li className="list-disc">December 9: Event number 4</li>
+          <li className="list-disc">January 9: Event number 5</li>
+          <li className="list-disc">Febuaray 23: Event number 6</li>
+        </div>
+        
+
+
+      </section>
 
       {/* {Socials} */}
       <section className=''>
